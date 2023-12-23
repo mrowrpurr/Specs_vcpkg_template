@@ -5,7 +5,7 @@
 Get started with the [`Specs.cpp`][specs] testing framework using CMake with `vcpkg`!
 
 ```cpp
-#define spec_name My_Tests
+#define SPEC_GROUP My_Tests
  
 #include <Specs.h>
  
