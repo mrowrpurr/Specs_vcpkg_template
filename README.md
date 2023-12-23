@@ -43,17 +43,15 @@ _Otherwise, you will be using old versions of `Spec` and its dependencies!_
 
 ## `libassert`
 
-At the time of writing, [`libassert`](https://github.com/jeremy-rifkin/libassert) is not hosted in the official `vcpkg` registry.
+At the time of writing, I cannot get the [`libassert`](https://github.com/jeremy-rifkin/libassert) `vcpkg` package to work.
 
-For that reason, only the [`snowhouse`](https://github.com/banditcpp/snowhouse) assertion library is used in this template.
+For that reason, only the [`snowhouse`](https://github.com/banditcpp/snowhouse) assertion library is used in this template for now.
 
 Feel free to follow these CMake instructions from the official `libassert` README to add `libassert` to your project:
 
 - [Install libassert with CMake `FetchContent`](https://github.com/jeremy-rifkin/libassert?tab=readme-ov-file#a-with-cmake-fetchcontent)
 
-> _Note: I plan to one day add `libassert` to my `vcpkg` registry_
->
-> _If you know of any registries which host `libassert` today, please find and message me to let me know (e.g. on Discord)_
+> _I plan to revisit this and add `libassert` support to this repository!_
 
 [specs]: https://specs.tools/
 [template]: https://github.com/new?template_name=Specs_xmake_template&template_owner=mrowrpurr
