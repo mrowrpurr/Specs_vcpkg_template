@@ -8,7 +8,7 @@
         {
             "kind": "git",
             "repository": "https://github.com/MrowrLib/Packages.git",
-            "baseline": "ee22e8582cd1a4f5e47ae93c3279b6b4ac996bdf",
+            "baseline": "d8193dee2818d1bf61af42256c1901fd1f509111",
             "packages": [
                 "specs",
                 "specs-snowhouse",
